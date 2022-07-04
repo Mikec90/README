@@ -1,10 +1,9 @@
-Build and Analyze
-
+Build: and Analyze:
 on:
   push:
-    branches: [ main ]
+    branches: [ v*Compton90.NFT ]
   pull_request:
-    branches: [ main ]
+    branches: [ Compton90.crypto ]
 
 jobs:
   build:
